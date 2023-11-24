@@ -1,0 +1,256 @@
+<!-- HTML index file -->
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1">
+    <title>
+      Welcome to Taniti Island
+    </title>
+    <link rel="stylesheet" href="css/mystyle.css">
+  </head>
+  <!-- *************************** END OF HEAD *************************** -->
+
+  <!-- *************************** BODY *************************** -->
+  <body>
+
+<!-- TOPMOST IMAGE -->
+    <div class="headerimg">
+      <a href="#index">
+        <img src="images/island_landscape.jpg" alt="lush green mountains encircling bright sandy beach" id="topheaderimg">
+      </a>
+      <div class="greeting">
+        Welcome to Taniti Island
+      </div>
+    </div>
+
+    <!-- *************************** NAVBAR *************************** -->
+      <!-- NAVBAR -->
+    <div class="topnav" id="myTopnav">
+      <a href="#index" class="active">
+        About
+      </a>
+      <a href="pages/travels.html">
+        Stay
+      </a>
+      <a href="pages/experience.html">
+        Explore
+      </a>
+      <a href="pages/events.html">
+        Celebrate
+      </a>
+      <a href="pages/tips.html">
+        Tips
+      </a>
+      <a href="javascript:void(0);" class="icon" onclick="expandMenu()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
+
+    <!-- *************************** PAGE CONTENT *************************** -->
+
+<!-- PAGE TITLE -->
+    <div class="pagecontent">
+
+      <div class="pageheader">
+        <h1>
+          About Our Island
+        </h1>
+      </div>
+      <div class="parainfo">
+        <p>
+          Taniti is a small, tropical island in the Pacific. While the island has an area of less than 500 square miles, the terrain is varied and includes both sandy and rocky beaches, a small but safe harbor, lush tropical rainforests, and a mountainous interior that includes a small, active volcano. <br>
+          Taniti has an indigenous population of about 20,000. Many younger Tanitians speak fluent English. However, very little English is spoken in rural areas, especially by the older residents. Until a recent increase in tourism, most of the Tanitian economy was dominated by fishing or agriculture.
+        </p>
+      </div>
+      <br>
+
+      <!-- Photo Gallery of island landscape -->
+      <div class="slideshow-container">
+
+        <div class="mySlides1 fade">
+          <div class="numbertext">
+            1 / 7
+          </div>
+          <img src="images/landscape/il-coast.jpg" style="width:100%">
+          <div class="text">
+            Photo by Claudio Trigueros on Unsplash.
+          </div>
+        </div>
+
+        <div class="mySlides1 fade">
+          <div class="numbertext">
+            2 / 7
+          </div>
+          <img src="images/landscape/il-sandybch.jpg" style="width:100%">
+          <div class="text">
+            Photo by Maarten van der Heuvel on Unsplash.
+          </div>
+        </div>
+
+        <div class="mySlides1 fade">
+          <div class="numbertext">
+            3 / 7
+          </div>
+          <img src="images/landscape/il-rockybch.jpg" style="width:100%">
+          <div class="text">
+            Photo by Christian Joudrey on Unsplash.
+          </div>
+        </div>
+
+        <div class="mySlides1 fade">
+          <div class="numbertext">
+            4 / 7
+          </div>
+          <img src="images/landscape/il-lush-mtn.jpg" style="width:100%">
+          <div class="text">
+            Photo by J Cruikshank on Unsplash.
+          </div>
+        </div>
+
+        <div class="mySlides1 fade">
+          <div class="numbertext">
+            5 / 7
+          </div>
+          <img src="images/landscape/il-fields.jpg" style="width:100%">
+          <div class="text">
+            Photo by Angela Compagnone on Unsplash.
+          </div>
+        </div>
+
+        <div class="mySlides1 fade">
+          <div class="numbertext">
+            6 / 7
+          </div>
+          <img src="images/landscape/il-volcano.jpg" style="width:100%">
+          <div class="text">
+            Photo by Tetiana Grypachevska on Unsplash.
+          </div>
+        </div>
+
+        <div class="mySlides1 fade">
+          <div class="numbertext">
+            7 / 7
+          </div>
+          <img src="images/landscape/il-sunset.jpg" style="width:100%">
+          <div class="text">
+            Photo by Saiph Muhammad on Unsplash.
+          </div>
+        </div>
+
+        <!-- Next & Previous buttons -->
+        <a class="prev" onclick="plusSlides(-1, 0)">
+          &#10094;
+        </a>
+        <a class="next" onclick="plusSlides(1, 0)">
+          &#10095;
+        </a>
+      </div>
+      <br>
+      <!-- end div for slideshow-container -->
+<!--
+      <!-- dots & circles
+      <div style="text-align:center">
+        <span class="dot" onlcick="currentSlide(1)"></span>
+        <span class="dot" onlcick="currentSlide(2)"></span>
+        <span class="dot" onlcick="currentSlide(3)"></span>
+        <span class="dot" onlcick="currentSlide(4)"></span>
+        <span class="dot" onlcick="currentSlide(5)"></span>
+        <span class="dot" onlcick="currentSlide(6)"></span>
+        <span class="dot" onlcick="currentSlide(7)"></span>
+      </div>
+-->
+    <!-- ***************** END OF PHOTO GALLERY ************** -->
+
+      <h2 class="seller">
+        Come Home to Paradise
+      </h2>
+
+      <hr id="sellerhr">
+
+      <div class="dividerimg">
+        <img src="images/culture.jpg" alt="Group of friends having a good time at sunset">
+        <div class="text">
+          Photo by Jen Loong on Unsplash.
+        </div>
+      </div>
+
+      <!-- Image Links in narrow, screen-width images related to topic; topic written on top of image -->
+    </div>
+  </body>
+  <!-- *************************** BODY END *************************** -->
+
+
+
+  <!-- *************************** FOOTER *************************** -->
+    <!-- FOOTER -->
+  <footer style="width:100%">
+    <!-- Topics Header: no link -->
+  <table class="topfootnav">
+    <tr>
+      <th class="header3" colspan="3">TOPICS</th>
+    </tr>
+      <!-- Singular h4 Topics -->
+    <tr>
+      <td class="header4"><a href="#index">ABOUT</a></td>
+      <td class="header4"><a href="pages/events.html">EVENTS</a></td>
+      <td class="header4"><a href="pages/tips.html">TIPS FOR VISITORS</a></td>
+    </tr>
+    <!-- h4 Headers for Listed Topics-->
+    <tr>
+      <td class="header4"><a href="pages/travels.html">STAY IN TANITI</a></td>
+      <td class="header4"><a href="pages/experience.html">EXPLORE TANITI</a></td>
+      <td class="header5"><a href="pages/tips.html">CURRENCY</a></td>
+    </tr>
+      <!-- Listed Topics - Row 1 -->
+    <tr>
+      <td class="header5"><a href="pages/travels.html">PORT OF TANITI</a></td>
+      <td class="header5"><a href="pages/experience.html">CUISINE</a></td>
+      <td class="header5"><a href="pages/tips.html">OUTLET SAFETY</a></td>
+    </tr>
+        <!-- Listed Topics - Row 2 -->
+    <tr>
+      <td class="header5"><a href="pages/travels.html">TANITI AIRPORT</a></td>
+      <td class="header5"><a href="pages/experience.html">ENTERTAINMENT</a></td>
+      <td class="header5"><a href="pages/tips.html">FISHING SEASON</a></td>
+    </tr>
+        <!-- Listed Topics - Row 3 -->
+    <tr>
+      <td class="header5"><a href="pages/travels.html">LODGING</a></td>
+      <td class="header5"><a href="pages/experience.html">ADVENTURE</a></td>
+      <td class="header5"><a href="pages/tips.html">NECESSITIES</a></td>
+    </tr>
+        <!-- Listed Topics - Row 4 -->
+    <tr>
+      <td class="header5"><a href="pages/travels.html">TRANSPORTATION</a></td>
+      <td class="header5"><a href="pages/events.html">EVENTS</a></td>
+      <td class="header5"><a href="pages/tips.html">HOSPITALS & CLINICS</a></td>
+    </tr>
+  </table>
+  <br>
+  <hr style="width:75%;height:2px;color:#CCBDA4">
+  <br>
+
+  <!-- *************************** FOOTER ICON *************************** -->
+    <!-- FOOTER ICON -->
+  <table id="visiticon">
+    <tr>
+      <td rowspan="3" class="iconleft"><img src="images/icons/palm-tree-icon.png"></td>
+      <td colspan="3">VISIT</td>
+      <td rowspan="3" class="iconright"><img src="images/icons/palm-tree-icon.png"></td>
+    </tr>
+    <tr>
+      <td colspan="3">TANITI</td>
+    </tr>
+    <tr>
+      <td colspan="3">ISLAND</td>
+    </tr>
+  </table>
+
+    </footer>
+
+</html>
+
+<!-- *************************** JAVASCRIPT *************************** -->
+<script src="javascript/myscripts.js"></script>
+<script src="https://kit.fontawesome.com/264acbfcaf.js" crossorigin="anonymous"></script>
